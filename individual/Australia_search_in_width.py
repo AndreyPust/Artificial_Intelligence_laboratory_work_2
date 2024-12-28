@@ -262,7 +262,7 @@ if __name__ == "__main__":
         adjacency_list[end].append((start, edge_costs))
 
     # Определение задачи
-    search_task = GraphProblem(adjacency_list, "Буриндал", "Сидней")  # граф, начальное состояние, целевое состояние
+    search_task = GraphProblem(adjacency_list, "Буриндал", "Сидней")
 
     # Поиск кратчайшего пути
     shortest_path, total_cost_way = bfs_search(search_task)

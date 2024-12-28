@@ -1,14 +1,58 @@
-black @ file:///C:/b/abs_3arhghl9_x/croot/black_1725573890945/work
-click @ file:///C:/b/abs_f9ihnt72pu/croot/click_1698129847492/work
-colorama @ file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work
-flake8 @ file:///C:/b/abs_11zrixwsv1/croot/flake8_1726157202790/work
-isort @ file:///C:/b/abs_50iy840e4z/croot/isort_1718291849200/work
-mccabe @ file:///opt/conda/conda-bld/mccabe_1644221741721/work
-mypy-extensions @ file:///C:/b/abs_8f7xiidjya/croot/mypy_extensions_1695131051147/work
-packaging @ file:///C:/b/abs_c3vlh0z4jw/croot/packaging_1720101866539/work
-pathspec @ file:///C:/b/abs_9cu5_2yb3i/croot/pathspec_1674681579249/work
-platformdirs @ file:///C:/b/abs_b6z_yqw_ii/croot/platformdirs_1692205479426/work
-pycodestyle @ file:///C:/b/abs_9bj6ihy3hn/croot/pycodestyle_1726150314067/work
-pyflakes @ file:///C:/b/abs_b6t1aazq2e/croot/pyflakes_1708963020907/work
-tomli @ file:///C:/Windows/TEMP/abs_ac109f85-a7b3-4b4d-bcfd-52622eceddf0hy332ojo/croots/recipe/tomli_1657175513137/work
-typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_1715268906610/work
+black==24.10.0
+build==1.2.2.post1
+CacheControl==0.14.1
+certifi==2024.12.14
+cfgv==3.4.0
+charset-normalizer==3.4.0
+cleo==2.1.0
+click==8.1.7
+colorama==0.4.6
+crashtest==0.4.1
+distlib==0.3.9
+dulwich==0.21.7
+exceptiongroup==1.2.2
+fastjsonschema==2.21.1
+filelock==3.16.1
+flake8==7.1.1
+identify==2.6.3
+idna==3.10
+importlib_metadata==8.5.0
+iniconfig==2.0.0
+installer==0.7.0
+isort==5.13.2
+jaraco.classes==3.4.0
+keyring==24.3.1
+mccabe==0.7.0
+more-itertools==10.5.0
+msgpack==1.1.0
+mypy==1.13.0
+mypy-extensions==1.0.0
+nodeenv==1.9.1
+packaging==24.2
+pathspec==0.12.1
+pexpect==4.9.0
+pkginfo==1.12.0
+platformdirs==4.3.6
+pluggy==1.5.0
+poetry==1.8.5
+poetry-core==1.9.1
+poetry-plugin-export==1.8.0
+pre_commit==4.0.1
+ptyprocess==0.7.0
+pycodestyle==2.12.1
+pyflakes==3.2.0
+pyproject_hooks==1.2.0
+pytest==8.3.4
+pywin32-ctypes==0.2.3
+PyYAML==6.0.2
+RapidFuzz==3.11.0
+requests==2.32.3
+requests-toolbelt==1.0.0
+shellingham==1.5.4
+tomli==2.2.1
+tomlkit==0.13.2
+trove-classifiers==2024.10.21.16
+typing_extensions==4.12.2
+urllib3==2.2.3
+virtualenv==20.28.0
+zipp==3.21.0

@@ -40,6 +40,7 @@ def search_in_width(initial_p, goal_p, sizes_p):
 
         # Генерация всех возможных действий
         for i in range(len(sizes_p)):
+
             # Наполнить i-й кувшин
             new_state = list(state)
             new_state[i] = sizes_p[i]
