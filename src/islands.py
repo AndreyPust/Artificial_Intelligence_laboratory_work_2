@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Вам дана бинарная матрица, где 0 представляет воду, а 1 представляет землю.
+Дана бинарная матрица, где 0 представляет воду, а 1 представляет землю.
 Связанные единицы формируют остров. Необходимо подсчитать общее
 количество островов в данной матрице. Острова могут соединяться как по
 вертикали и горизонтали, так и по диагонали.
@@ -62,7 +62,7 @@ class Node:
         self.state = state
         self.parent = parent
         self.action = action
-        self.path_cost = path_cost  # для этой задачи не критично
+        self.path_cost = path_cost
 
     def __repr__(self):
         return f"<Node {self.state}>"
@@ -179,7 +179,7 @@ def main():
     ]
 
     number_of_islands = count_islands_bfs(grid)
-    print("Общее количество островов = ", number_of_islands)
+    print("Общее количество островов: ", number_of_islands)
 
 
 if __name__ == "__main__":
